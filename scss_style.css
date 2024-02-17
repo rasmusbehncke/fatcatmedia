@@ -215,4 +215,9 @@ footer {
   display: flex;
   justify-content: flex-end;
   padding: 1em;
+}
+
+/*Kode til Skills*/
+.article_img {
+  width: 100%;
 }/*# sourceMappingURL=scss_style.css.map */
