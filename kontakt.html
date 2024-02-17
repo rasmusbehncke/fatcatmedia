@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills</title>
+    <title>Kontakt</title>
     <link rel="stylesheet" href="scss_style.css">
     <script src="https://kit.fontawesome.com/26e7224ccd.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
@@ -29,7 +29,7 @@
 </div>
 <section class="hero">
     <br>
-<h1>Det kan vi</h1>
+<h1>Kontakt</h1>
 <br><br>
 </section>
 </div>
@@ -38,36 +38,63 @@
 <section class="intro">
     <h2>Totalløsningen eller en specifik opgave?</h2>
     <p>
-        Hos Fat Cat Media kan vi både lave en samlet løsning hvor alle vores kompetencer kommer i spil eller en helt specifik opgave. Her kan du læse mere om hvad vi tilbyder:</p>
+        Hos Fat Cat Media kan vi både lave en samlet løsning hvor alle vores kompetencer kommer i spil eller en helt specifik opgave. Her kan du læse mere om hvad vi tilbyder: <br> du kan kontakte os på mail@fatcatmedia.com eller benytte formen herunder: </p>
 </section>
 
+<form>
+    <label for="navn">Navn</label> 
+    <input id="navn" type="text" required>
+    
+    <label for="telefon">Telefonnummer</label>
+    <input id="telefon" type="tel">
+    
+    <label for="mail">E-mail</label>
+    <input id="mail" type="email" required>
+        
+    <label for="besked">Besked</label>
+    <textarea name="besked" id="besked" rows="8" cols="60"></textarea>
 
+    <fieldset> 
+        <legend>Må vi ringe dig op?</legend>
+        
+        <input id="ja" type="radio" value="ja" name="kontaktes">
+        <label for="ja">Ja</label>
+        
+        <input id="nej" type="radio" value="nej" name="kontaktes">
+        <label for="nej">Nej</label>
+    </fieldset>
+        
+    <input type="submit" name="submit" value="Send">
+
+</form>
+<section class="overskrift" >
+<h3>Mød holdet</h3>
+</section>
     <div>
-
 <article class="article2">
     <img class="article_img" src="img/header1.jpg" alt="placeholder">
-<h2>Sådan gør vi</h2>
+<h2>Navn Navn</h2>
 <p>At få en ny visuel identitet kan være en uoverskuelig opgave. Hvordan skal man bla bla og hvorfor gør man sådan og så videre?
     Hos Fat Cat Media tager vi dig i hånden gennem hele processen - læs mere om den her.</p>
 
 </article>
 <article class="article2">
     <img class="article_img" src="img/header1.jpg" alt="placeholder">
-    <h2>Sådan gør vi</h2>
+    <h2>Navn Navn</h2>
     <p>At få en ny visuel identitet kan være en uoverskuelig opgave. Hvordan skal man bla bla og hvorfor gør man sådan og så videre?
         Hos Fat Cat Media tager vi dig i hånden gennem hele processen - læs mere om den her.</p>
     
     </article>
     <article class="article2">
         <img class="article_img" src="img/header1.jpg" alt="placeholder">
-        <h2>Sådan gør vi</h2>
+        <h2>Navn Navn</h2>
         <p>At få en ny visuel identitet kan være en uoverskuelig opgave. Hvordan skal man bla bla og hvorfor gør man sådan og så videre?
             Hos Fat Cat Media tager vi dig i hånden gennem hele processen - læs mere om den her.</p>
         
         </article>
         <article class="article2">
             <img class="article_img" src="img/header1.jpg" alt="placeholder">
-            <h2>Sådan gør vi</h2>
+            <h2>Navn Navn</h2>
             <p>At få en ny visuel identitet kan være en uoverskuelig opgave. Hvordan skal man bla bla og hvorfor gør man sådan og så videre?
                 Hos Fat Cat Media tager vi dig i hånden gennem hele processen - læs mere om den her.</p>
             
@@ -77,9 +104,7 @@
 
 
 </section>
-<section class="linkzone" >
-    <a class="herolink" href="kontakt.html">Book et møde</a>
-    </section>
+
 <br><br>
 <footer>
 <img class="footerlogo" src="img/Group 13.png" alt="">
