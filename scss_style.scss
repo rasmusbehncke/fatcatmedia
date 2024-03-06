@@ -86,7 +86,7 @@ $articlebackgroundcolor: #9F9F9F;
   .background {
     background-image: url(img/header1.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     position: relative;
 
   }
@@ -95,7 +95,7 @@ $articlebackgroundcolor: #9F9F9F;
 h1{
     background-color: transparent;
     font-family: orelega one;
-    font-size: 64px;
+    font-size: 50px;
     
 }
 h2 {
@@ -237,7 +237,7 @@ footer{
 .background_proces {
     background-image: url(img/header1.jpg);
     background-size: cover;
-    height: 65vh;
+    height: 50vh;
     position: relative;
   }
 
@@ -424,6 +424,13 @@ form{
 .bentozone{
   display: flex;
   justify-content: center;
+}
+
+h1{
+  background-color: transparent;
+  font-family: orelega one;
+  font-size: 64px;
+  
 }
 
 article{
