@@ -86,7 +86,7 @@ $articlebackgroundcolor: #9F9F9F;
   .background {
     background-image: url(img/header1.jpg);
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     position: relative;
 
   }
@@ -181,7 +181,7 @@ article{
 
 footer{
     
-    height: 400px;
+    height: 450px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -237,7 +237,7 @@ footer{
 .background_proces {
     background-image: url(img/header1.jpg);
     background-size: cover;
-    height: 50vh;
+    height: 65vh;
     position: relative;
   }
 
