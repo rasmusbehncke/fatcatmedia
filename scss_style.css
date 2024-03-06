@@ -230,7 +230,7 @@ footer {
   width: 4px;
   max-height: 100%;
   padding: 0.2em;
-  margin: 7em 0em 7em 1em;
+  margin: 7em 0em 5em 1em;
 }
 
 .marker {
@@ -248,12 +248,16 @@ footer {
 }
 
 .cat {
-  width: 40%;
+  width: 13em;
   transform: scaleX(-1);
+  margin-left: -2em;
+  margin-bottom: -4em;
+  background-color: transparent;
 }
 
 .cat_space {
   display: flex;
+  background-color: transparent;
   padding: 1em;
 }
 
