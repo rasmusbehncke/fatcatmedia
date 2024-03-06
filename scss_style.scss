@@ -15,7 +15,7 @@
 
 /*SCSS Variants*/
 
-$brandcolor: #F58E20
+$brandcolor: #F58E20;
 
 /*Body*/
 
@@ -85,7 +85,7 @@ $brandcolor: #F58E20
   .background {
     background-image: url(img/header1.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     position: relative;
 
   }
@@ -111,11 +111,17 @@ h3 {
 
 p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: "transparent";
+    background-color: transparent;
+    margin-top: 0.5em;
+}
+
+a{
+  background-color: transparent;
 }
 li{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: transparent;
+    margin-top: 0.5em;
 }
 
 ul{
@@ -136,8 +142,10 @@ b{
   margin-bottom: 40px;
 }
 
+
 .herolink {
     font-family: orelega one;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     background-color: $brandcolor;
@@ -147,7 +155,7 @@ b{
     font-size: 25px;
     border-radius: 20px;
     border: 2px solid black;
-    
+
 }
 
 .linkzone{
@@ -233,7 +241,7 @@ footer{
   }
 
   .main_content{
-display: flex;
+  display: flex;
   }
 
   .pynt{
@@ -262,10 +270,11 @@ display: flex;
 
 .cat{
     width: 40%;
+    transform: scaleX(-1)
 }
 .cat_space{
     display: flex;
-    justify-content: flex-end;
+    
     padding: 1em;
 }
 
@@ -274,6 +283,7 @@ display: flex;
 .article_img{
     width: 100%;
 }
+
 
 .bento_skills{
   display: flex;
@@ -388,6 +398,7 @@ form{
     justify-content: center;
   }
 
+  
   /*desktop kode*/
 
   @media only screen and (min-width: 500px){
